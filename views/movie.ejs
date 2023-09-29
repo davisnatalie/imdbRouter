@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+      <%- include("./partials/head") %>
+<body>
+
+
+    <h1> IMDb Top 100 Movies</h1>
+<p>
+<% imdb.forEach((imdb)=> { %>
+You selected: <%=imdb.rank%>
+title: <%=imdb.title%>
+thumbnail: <%=imdb.thumbnail%>
+rating: <%=imdb.rating%>
+id: <%=imdb.id%>
+year: <%=imdb.year%>
+image: <%imdb.image%>
+description: <%=imdb.description%>
+trailer: <%=imdb.trailer%>
+genre: <%=imdb.genre%>
+diector: <%=director%>
+writers: <%=imdb.writers%>
+imdbid: <%=imdb.imdbid%>
+
+<script>
+</script>
+
+</body>
+</html>
